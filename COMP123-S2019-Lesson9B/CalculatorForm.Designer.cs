@@ -74,7 +74,7 @@
             this.CalculatorButtonTableLayoutPanel.Controls.Add(this.ZeroButton, 0, 4);
             this.CalculatorButtonTableLayoutPanel.Controls.Add(this.DoneButton, 3, 3);
             this.CalculatorButtonTableLayoutPanel.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CalculatorButtonTableLayoutPanel.Location = new System.Drawing.Point(2, 2);
+            this.CalculatorButtonTableLayoutPanel.Location = new System.Drawing.Point(12, 466);
             this.CalculatorButtonTableLayoutPanel.Name = "CalculatorButtonTableLayoutPanel";
             this.CalculatorButtonTableLayoutPanel.RowCount = 5;
             this.CalculatorButtonTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -82,7 +82,7 @@
             this.CalculatorButtonTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.CalculatorButtonTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.CalculatorButtonTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.CalculatorButtonTableLayoutPanel.Size = new System.Drawing.Size(302, 290);
+            this.CalculatorButtonTableLayoutPanel.Size = new System.Drawing.Size(280, 223);
             this.CalculatorButtonTableLayoutPanel.TabIndex = 0;
             // 
             // ResultLabel
@@ -96,7 +96,7 @@
             this.ResultLabel.Font = new System.Drawing.Font("Arial", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ResultLabel.Location = new System.Drawing.Point(3, 0);
             this.ResultLabel.Name = "ResultLabel";
-            this.ResultLabel.Size = new System.Drawing.Size(296, 58);
+            this.ResultLabel.Size = new System.Drawing.Size(274, 44);
             this.ResultLabel.TabIndex = 1;
             this.ResultLabel.Tag = "result";
             this.ResultLabel.Text = "0";
@@ -109,9 +109,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ThreeButton.BackColor = System.Drawing.Color.SteelBlue;
             this.ThreeButton.ForeColor = System.Drawing.Color.White;
-            this.ThreeButton.Location = new System.Drawing.Point(153, 177);
+            this.ThreeButton.Location = new System.Drawing.Point(143, 135);
             this.ThreeButton.Name = "ThreeButton";
-            this.ThreeButton.Size = new System.Drawing.Size(69, 52);
+            this.ThreeButton.Size = new System.Drawing.Size(64, 38);
             this.ThreeButton.TabIndex = 8;
             this.ThreeButton.Tag = "3";
             this.ThreeButton.Text = "3";
@@ -125,9 +125,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.TwoButton.BackColor = System.Drawing.Color.SteelBlue;
             this.TwoButton.ForeColor = System.Drawing.Color.White;
-            this.TwoButton.Location = new System.Drawing.Point(78, 177);
+            this.TwoButton.Location = new System.Drawing.Point(73, 135);
             this.TwoButton.Name = "TwoButton";
-            this.TwoButton.Size = new System.Drawing.Size(69, 52);
+            this.TwoButton.Size = new System.Drawing.Size(64, 38);
             this.TwoButton.TabIndex = 7;
             this.TwoButton.Tag = "2";
             this.TwoButton.Text = "2";
@@ -141,9 +141,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.OneButton.BackColor = System.Drawing.Color.SteelBlue;
             this.OneButton.ForeColor = System.Drawing.Color.White;
-            this.OneButton.Location = new System.Drawing.Point(3, 177);
+            this.OneButton.Location = new System.Drawing.Point(3, 135);
             this.OneButton.Name = "OneButton";
-            this.OneButton.Size = new System.Drawing.Size(69, 52);
+            this.OneButton.Size = new System.Drawing.Size(64, 38);
             this.OneButton.TabIndex = 6;
             this.OneButton.Tag = "1";
             this.OneButton.Text = "1";
@@ -157,9 +157,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.SixButton.BackColor = System.Drawing.Color.SteelBlue;
             this.SixButton.ForeColor = System.Drawing.Color.White;
-            this.SixButton.Location = new System.Drawing.Point(153, 119);
+            this.SixButton.Location = new System.Drawing.Point(143, 91);
             this.SixButton.Name = "SixButton";
-            this.SixButton.Size = new System.Drawing.Size(69, 52);
+            this.SixButton.Size = new System.Drawing.Size(64, 38);
             this.SixButton.TabIndex = 5;
             this.SixButton.Tag = "6";
             this.SixButton.Text = "6";
@@ -173,9 +173,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.FiveButton.BackColor = System.Drawing.Color.SteelBlue;
             this.FiveButton.ForeColor = System.Drawing.Color.White;
-            this.FiveButton.Location = new System.Drawing.Point(78, 119);
+            this.FiveButton.Location = new System.Drawing.Point(73, 91);
             this.FiveButton.Name = "FiveButton";
-            this.FiveButton.Size = new System.Drawing.Size(69, 52);
+            this.FiveButton.Size = new System.Drawing.Size(64, 38);
             this.FiveButton.TabIndex = 4;
             this.FiveButton.Tag = "5";
             this.FiveButton.Text = "5";
@@ -189,9 +189,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.FourButton.BackColor = System.Drawing.Color.SteelBlue;
             this.FourButton.ForeColor = System.Drawing.Color.White;
-            this.FourButton.Location = new System.Drawing.Point(3, 119);
+            this.FourButton.Location = new System.Drawing.Point(3, 91);
             this.FourButton.Name = "FourButton";
-            this.FourButton.Size = new System.Drawing.Size(69, 52);
+            this.FourButton.Size = new System.Drawing.Size(64, 38);
             this.FourButton.TabIndex = 3;
             this.FourButton.Tag = "4";
             this.FourButton.Text = "4";
@@ -205,9 +205,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.NineButton.BackColor = System.Drawing.Color.SteelBlue;
             this.NineButton.ForeColor = System.Drawing.Color.White;
-            this.NineButton.Location = new System.Drawing.Point(153, 61);
+            this.NineButton.Location = new System.Drawing.Point(143, 47);
             this.NineButton.Name = "NineButton";
-            this.NineButton.Size = new System.Drawing.Size(69, 52);
+            this.NineButton.Size = new System.Drawing.Size(64, 38);
             this.NineButton.TabIndex = 2;
             this.NineButton.Tag = "9";
             this.NineButton.Text = "9";
@@ -221,9 +221,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.EightButton.BackColor = System.Drawing.Color.SteelBlue;
             this.EightButton.ForeColor = System.Drawing.Color.White;
-            this.EightButton.Location = new System.Drawing.Point(78, 61);
+            this.EightButton.Location = new System.Drawing.Point(73, 47);
             this.EightButton.Name = "EightButton";
-            this.EightButton.Size = new System.Drawing.Size(69, 52);
+            this.EightButton.Size = new System.Drawing.Size(64, 38);
             this.EightButton.TabIndex = 1;
             this.EightButton.Tag = "8";
             this.EightButton.Text = "8";
@@ -237,9 +237,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.SevenButton.BackColor = System.Drawing.Color.SteelBlue;
             this.SevenButton.ForeColor = System.Drawing.Color.White;
-            this.SevenButton.Location = new System.Drawing.Point(3, 61);
+            this.SevenButton.Location = new System.Drawing.Point(3, 47);
             this.SevenButton.Name = "SevenButton";
-            this.SevenButton.Size = new System.Drawing.Size(69, 52);
+            this.SevenButton.Size = new System.Drawing.Size(64, 38);
             this.SevenButton.TabIndex = 0;
             this.SevenButton.Tag = "7";
             this.SevenButton.Text = "7";
@@ -253,9 +253,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.DecimalButton.BackColor = System.Drawing.Color.SteelBlue;
             this.DecimalButton.ForeColor = System.Drawing.Color.White;
-            this.DecimalButton.Location = new System.Drawing.Point(153, 235);
+            this.DecimalButton.Location = new System.Drawing.Point(143, 179);
             this.DecimalButton.Name = "DecimalButton";
-            this.DecimalButton.Size = new System.Drawing.Size(69, 52);
+            this.DecimalButton.Size = new System.Drawing.Size(64, 41);
             this.DecimalButton.TabIndex = 12;
             this.DecimalButton.Tag = "decimal";
             this.DecimalButton.Text = ".";
@@ -271,9 +271,9 @@
             this.BackButton.BackgroundImage = global::COMP123_S2019_Lesson9B.Properties.Resources.backbutton;
             this.BackButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.BackButton.ForeColor = System.Drawing.Color.White;
-            this.BackButton.Location = new System.Drawing.Point(228, 61);
+            this.BackButton.Location = new System.Drawing.Point(213, 47);
             this.BackButton.Name = "BackButton";
-            this.BackButton.Size = new System.Drawing.Size(71, 52);
+            this.BackButton.Size = new System.Drawing.Size(64, 38);
             this.BackButton.TabIndex = 13;
             this.BackButton.Tag = "back";
             this.BackButton.UseVisualStyleBackColor = false;
@@ -287,9 +287,9 @@
             this.ClearButton.BackColor = System.Drawing.Color.DarkOrange;
             this.ClearButton.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ClearButton.ForeColor = System.Drawing.Color.White;
-            this.ClearButton.Location = new System.Drawing.Point(228, 119);
+            this.ClearButton.Location = new System.Drawing.Point(213, 91);
             this.ClearButton.Name = "ClearButton";
-            this.ClearButton.Size = new System.Drawing.Size(71, 52);
+            this.ClearButton.Size = new System.Drawing.Size(64, 38);
             this.ClearButton.TabIndex = 14;
             this.ClearButton.Tag = "clear";
             this.ClearButton.Text = "Clear";
@@ -304,9 +304,9 @@
             this.ZeroButton.BackColor = System.Drawing.Color.SteelBlue;
             this.CalculatorButtonTableLayoutPanel.SetColumnSpan(this.ZeroButton, 2);
             this.ZeroButton.ForeColor = System.Drawing.Color.White;
-            this.ZeroButton.Location = new System.Drawing.Point(3, 235);
+            this.ZeroButton.Location = new System.Drawing.Point(3, 179);
             this.ZeroButton.Name = "ZeroButton";
-            this.ZeroButton.Size = new System.Drawing.Size(144, 52);
+            this.ZeroButton.Size = new System.Drawing.Size(134, 41);
             this.ZeroButton.TabIndex = 10;
             this.ZeroButton.Tag = "0";
             this.ZeroButton.Text = "0";
@@ -321,10 +321,10 @@
             this.DoneButton.BackColor = System.Drawing.Color.SeaGreen;
             this.DoneButton.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DoneButton.ForeColor = System.Drawing.Color.White;
-            this.DoneButton.Location = new System.Drawing.Point(228, 177);
+            this.DoneButton.Location = new System.Drawing.Point(213, 135);
             this.DoneButton.Name = "DoneButton";
             this.CalculatorButtonTableLayoutPanel.SetRowSpan(this.DoneButton, 2);
-            this.DoneButton.Size = new System.Drawing.Size(71, 110);
+            this.DoneButton.Size = new System.Drawing.Size(64, 85);
             this.DoneButton.TabIndex = 11;
             this.DoneButton.Tag = "done";
             this.DoneButton.Text = "Done";
@@ -333,60 +333,51 @@
             // 
             // HeightLabel
             // 
-            this.HeightLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.HeightLabel.BackColor = System.Drawing.Color.White;
             this.HeightLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.HeightLabel.Font = new System.Drawing.Font("Arial", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HeightLabel.Location = new System.Drawing.Point(12, 308);
+            this.HeightLabel.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HeightLabel.Location = new System.Drawing.Point(12, 9);
             this.HeightLabel.Name = "HeightLabel";
-            this.HeightLabel.Size = new System.Drawing.Size(122, 54);
+            this.HeightLabel.Size = new System.Drawing.Size(117, 44);
             this.HeightLabel.TabIndex = 1;
             this.HeightLabel.Tag = "height";
             this.HeightLabel.Text = "0";
-            this.HeightLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.HeightLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.HeightLabel.Click += new System.EventHandler(this.ActiveLabel_Click);
             // 
             // WeightLabel
             // 
-            this.WeightLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.WeightLabel.BackColor = System.Drawing.Color.White;
             this.WeightLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.WeightLabel.Font = new System.Drawing.Font("Arial", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeightLabel.Location = new System.Drawing.Point(12, 380);
+            this.WeightLabel.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeightLabel.Location = new System.Drawing.Point(12, 65);
             this.WeightLabel.Name = "WeightLabel";
-            this.WeightLabel.Size = new System.Drawing.Size(122, 54);
+            this.WeightLabel.Size = new System.Drawing.Size(117, 44);
             this.WeightLabel.TabIndex = 1;
             this.WeightLabel.Tag = "height";
             this.WeightLabel.Text = "0";
-            this.WeightLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.WeightLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.WeightLabel.Click += new System.EventHandler(this.ActiveLabel_Click);
             // 
             // AgeLabel
             // 
-            this.AgeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.AgeLabel.BackColor = System.Drawing.Color.White;
             this.AgeLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.AgeLabel.Font = new System.Drawing.Font("Arial", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AgeLabel.Location = new System.Drawing.Point(12, 449);
+            this.AgeLabel.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AgeLabel.Location = new System.Drawing.Point(12, 120);
             this.AgeLabel.Name = "AgeLabel";
-            this.AgeLabel.Size = new System.Drawing.Size(122, 54);
+            this.AgeLabel.Size = new System.Drawing.Size(117, 44);
             this.AgeLabel.TabIndex = 1;
             this.AgeLabel.Tag = "height";
             this.AgeLabel.Text = "0";
-            this.AgeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.AgeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.AgeLabel.Click += new System.EventHandler(this.ActiveLabel_Click);
             // 
             // CalculatorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(304, 512);
+            this.ClientSize = new System.Drawing.Size(304, 701);
             this.Controls.Add(this.AgeLabel);
             this.Controls.Add(this.WeightLabel);
             this.Controls.Add(this.HeightLabel);
