@@ -35,7 +35,7 @@ namespace COMP123_S2019_Lesson9B
         private void CalculatorForm_Load(object sender, EventArgs e)
         {
             ClearNumericKeyBoard();
-            CalculatorButtonTableLayoutPanel.Visible = false;
+            NumericKeyboardPanel.Visible = false;
             ActiveLabel = null;
             this.Size = new Size(320, 480);
         }
@@ -53,7 +53,7 @@ namespace COMP123_S2019_Lesson9B
                 ActiveLabel.BackColor = Color.White;
             }
 
-            CalculatorButtonTableLayoutPanel.Visible = false;
+            NumericKeyboardPanel.Visible = false;
             ActiveLabel = null;
         }
 
@@ -144,7 +144,7 @@ namespace COMP123_S2019_Lesson9B
             }
             ActiveLabel.Text = OutputValue.ToString();
             ClearNumericKeyBoard();
-            CalculatorButtonTableLayoutPanel.Visible = false;
+            NumericKeyboardPanel.Visible = false;
             ActiveLabel.BackColor = Color.White;
             ActiveLabel = null;
         }
@@ -195,14 +195,37 @@ namespace COMP123_S2019_Lesson9B
 
             ActiveLabel = sender as Label;
             ActiveLabel.BackColor = Color.LightBlue;
-            CalculatorButtonTableLayoutPanel.Visible = true;
+            NumericKeyboardPanel.Visible = true;
             if (ActiveLabel.Text != "0")
             {
                 ResultLabel.Text = ActiveLabel.Text;
                 OutputString = ActiveLabel.Text;
             }
-            CalculatorButtonTableLayoutPanel.Location = new Point(12, ActiveLabel.Location.Y + 55);
-            CalculatorButtonTableLayoutPanel.BringToFront();
+            //CalculatorButtonTableLayoutPanel.Location = new Point(12, ActiveLabel.Location.Y + 55);
+            NumericKeyboardPanel.BringToFront();
+
+            AnimationTimer.Enabled = true;
+        }
+
+        /// <summary>
+        /// This is the event handler for the AnimationTimer Tick event
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void AnimationTimer_Tick(object sender, EventArgs e)
+        {
+            var currentLocation = NumericKeyboardPanel.Location;
+
+            // Decrement current location of Numeric Key Board by 20
+            currentLocation = new Point(currentLocation.X, currentLocation.Y - 20);
+            NumericKeyboardPanel.Location = currentLocation;
+
+            // compare NumericKeyboard current location with the Active label
+            if (currentLocation.Y <= ActiveLabel.Location.Y + 55)
+            {
+                NumericKeyboardPanel.Location = new Point(currentLocation.X, ActiveLabel.Location.Y + 55);
+                AnimationTimer.Enabled = false;
+            }
         }
     }
 }
